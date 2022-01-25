@@ -1,0 +1,16 @@
+#button-1{
+    border: 2px solid teal;
+    background-color: white;
+    color: teal;
+    border-radius: 10px;
+}
+#button-2{
+    background-color: teal;
+    color: white;
+    border-radius: 50%;
+}
+#button-3{
+    background-color: blue;
+    color:white;
+    box-shadow: 5px 5px black;
+}

@@ -1,0 +1,22 @@
+h1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+h1 span{
+    color: greenyellow;
+}
+h2{
+    background-color:rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h3{
+    background-color: skyblue;
+    color: rebeccapurple;
+    text-decoration: underline;
+    text-align: right;
+}

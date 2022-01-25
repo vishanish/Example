@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <!--the for attribute of the label should match up with the namd and id of the input-->
+            <label for="firstName">First Name:* </label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div>
+            <label>Last Name:* </label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="email">Email:*</label>
+            <!--input type email provides a  mini-validation for email-->
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label>Password:* </label>
+            <input type="password">
+        </div>
+        <div>
+            <label>Confirm Password:* </label>
+            <input type="password">
+        </div>
+        <div>
+            <label>Birthday: </label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <div>
+            <div>
+            <label>Gender Identity: </label>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="male" id="male">
+                <label>Male  </label>
+                
+                <input type="radio">
+                <label>Female  </label>
+                
+                <input type="radio">
+                <label>Non-binary  </label>
+                
+                <input type="radio">
+                <label>I prefer not to answer </label>
+            </div>
+        </div>
+        <div>
+            <div>
+            
+                <label for="description">
+             A short description about myself:</label>
+            </div>
+            <div>
+                <textarea name="description" id="description" cols="35" rows="10"></textarea>>
+            </div>
+        </div>
+        <div>
+            <label>Favorite Language: </label>
+            <select>
+                <option>Javascript</option>
+                <option>HTML</option>
+                <option>Python</option>
+                <option>Java</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox">
+            <label>Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type ="submit" value = "Create Account">
+        </div>
+        <label> * Indicates a required field</label>
+    </form>
+</body>
+</html>
