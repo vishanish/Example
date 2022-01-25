@@ -1,0 +1,31 @@
+.nav {
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.nav-title{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: auto;
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    background-color: turquoise;
+    color: white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+}
