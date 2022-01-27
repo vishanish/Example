@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+}
+.red-color {
+    height: 350px;
+    width: 175px;
+    background-color: red;
+}
+.white-color {
+    height: 350px;
+    width: 175px;
+    background-color: white;
+}
+.blue-color {
+    height: 350px;
+    width: 175px;
+    background-color: blue;
+}

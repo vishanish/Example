@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+}
+
+.col{
+    background-color: lightblue;
+    padding:5px;
+    margin:5px;
+    flex:1;
+}
+.col-2{
+    background-color: cyan;
+    padding: 5px;
+    margin: 5px;
+    flex: 2;
+}

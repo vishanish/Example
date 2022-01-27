@@ -1,0 +1,38 @@
+.container{
+  width: 600px;
+  height:80px;
+  background-color: cyan;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: black;
+  
+}
+.picture{
+  position: fixed;
+  top:40px;
+  left:30px;
+  height:90px;
+  width:90px;
+}
+#citymarker{
+  display:inline-flex;
+}
+.city, .skills-1, .skills-2, .profile{
+  font-weight: bold;
+}
+p{
+  margin:0px;
+}
+.marker{
+  height:20px;
+  width:15px;
+}
+.gear{
+  height:20px;
+  width:20px;
+}
+#profilegear{
+  display:flex;
+  text-decoration: underline;
+  color:blue;
+}
